@@ -22,7 +22,7 @@ var (
 	once          sync.Once
 )
 
-func loadData() {
+func loadData() { 
 	file, err := os.Open("bitcoin.csv")
 	if err != nil {
 		log.Fatalf("Error opening file: %v", err)
